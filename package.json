@@ -1,13 +1,29 @@
 {
-  "name": "wxpay",
+  "name": "@lkspc/wxpay",
   "version": "1.0.0",
   "description": "payment for wechat",
   "main": "lib/index.js",
-  "repository": "https://github.com/lkspc/wxpay.git",
-  "author": "lk <lkspc@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkspc/wxpay.git"
+  },
+  "author": "lkspc <lkspc@qq.com>",
   "license": "MIT",
   "dependencies": {
     "debug": "^3.1.0",
     "xml2js": "^0.4.19"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/lkspc/wxpay/issues"
+  },
+  "homepage": "https://github.com/lkspc/wxpay#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"publish": "npm publish --access=public"
+  },
+  "keywords": [
+    "wechat",
+    "wxpay"
+  ]
 }
