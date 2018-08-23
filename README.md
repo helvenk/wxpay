@@ -7,7 +7,9 @@
 ### 初始化
 
 ```js
-const wxpay = require('wxpay')(config);
+const WXPay = require('wxpay');
+
+const wxpay = new WXPay(config);
 ```
 
 ### 统一下单
