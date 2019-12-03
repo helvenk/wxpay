@@ -2,12 +2,18 @@
 
 微信支付工具库
 
+## 安装
+
+```sh
+yarn add @lkspc/wxpay
+```
+
 ## 用法
 
 ### 初始化
 
 ```js
-const WXPay = require('wxpay');
+const WXPay = require('@lkspc/wxpay');
 
 const wxpay = new WXPay(config);
 ```
